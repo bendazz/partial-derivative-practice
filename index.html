@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Partial Derivative Practice</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- MathJax v3 configuration: robust inline and display math delimiters -->
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [
+            ['$', '$'],
+            ['\\(', '\\)']
+          ],
+          displayMath: [
+            ['$$', '$$'],
+            ['\\[', '\\]']
+          ],
+          packages: {'[+]': ['noerrors']},
+        },
+        options: {
+          renderActions: {
+            addMenu: [] // disable context menu for simplicity
+          },
+        },
+        svg: { fontCache: 'global' }
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Partial Derivative Practice</h1>
+    </header>
+
+    <main>
+      <section id="questions" class="questions"></section>
+    </main>
+
+    
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
